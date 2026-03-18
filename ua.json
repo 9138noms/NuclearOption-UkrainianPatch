@@ -318,6 +318,23 @@
     "Region": "Регіон",
     "Game Mode": "Режим гри",
     "Game mode": "Режим гри",
+    "Loading Mission.": "Завантаження Місії.",
+    "Loading Mission..": "Завантаження Місії..",
+    "Loading Mission...": "Завантаження Місії...",
+    "Refreshing Lobbies": "Оновлення Лобі",
+    "Joining Server...": "Приєднання До Сервера...",
+    "Connecting via Steam": "З'єднання Через Steam",
+    "Mission Description": "Опис Місії",
+    "Player Hosted": "Створено Гравцем",
+    "Dedicated Server": "Виділений Сервер",
+    "PVE": "PVE",
+    "UpTime": "Час Роботи",
+    "Join Lobby": "Увійти В Лобі",
+    "Connect Failed": "Помилка З'єднання",
+    "Client Error": "Помилка Клієнта",
+    "Getting AuthTicket": "Отримання Токена Авторизації",
+    "Authenticating with Server": "Авторизація На Сервері",
+    "Build Number did not match server!": "Номер Збірки Не Збігається Із Сервером!",
 
     // ========== Aircraft Selection ==========
     "Select Aircraft": "Вибрати літак",
@@ -385,6 +402,11 @@
     "THROTTLE:": "ТЯГА :",
     "AIRBRAKE": "ПОВІТРЯНЕ ГАЛЬМО",
     "THROTTLE :": "ТЯГА :",
+    "OUT OF ARC": "ПОЗА КУТОМ",
+    "OUT OF RANGE": "ЗАДАЛЕКО",
+    "TOO SLOW": "МАЛА ШВИД.",
+    "TOO CLOSE": "БЛИЗЬКО",
+    "SHOOT": "ВОГОНЬ",
     "Total": "Загалом",
     "Total :": "Загалом:",
     "T/W": "Тяга/Вага",
@@ -534,7 +556,6 @@
     "Heat Seeking": "Теплове наведення (ІЧ)",
     "Radar Guided": "Радіолокаційне (РЛ)",
     "Semi-Active": "Напівактивне",
-    "Active": "Активне",
     "GPS": "GPS",
     "Laser Guided": "Лазерне наведення",
     "Anti-Air": "Зенітна",
@@ -686,8 +707,8 @@
     "On": "Увімк.",
     "Enabled": "Увімкнено",
     "Disabled": "Вимкнено",
-    "Bloom": "Світіння",
-    "Ambient Occlusion": "Глобальне освітлення",
+    "Bloom": "Світіння (Bloom)",
+    "Ambient Occlusion": "Глобальне освітлення (AO)",
     "Motion Blur": "Розмиття в русі",
     "Depth of Field": "Глибина різкості",
     "Post Processing": "Постобробка",
@@ -707,7 +728,7 @@
     "Object Detail": "Деталізація об'єктів",
     "LOD Bias": "Зміщення LOD",
     "Volumetric Fog": "Об'ємний туман",
-    "Screen Space Reflections": "Відбиття в екранному просторі",
+    "Screen Space Reflections": "Відбиття в екранному просторі (SSR)",
 
     // ========== Audio Settings ==========
     "Master Volume": "Загальна гучність",
@@ -813,7 +834,7 @@
     "Draw": "Нічия",
     "Time": "Час",
     "Time Remaining": "Залишилось часу",
-    "Duration": "Тривалість",
+    "Duration": "Час",
     "Tickets": "Життя",
     "Capture": "Захопити",
     "Defend": "Захистити",
@@ -825,8 +846,6 @@
     "Supply": "Постачання",
     "Reinforce": "Підкріплення",
     "Retreat": "Відступ",
-
- 
 
     // ========== Weather ==========
     "Clear": "Ясно",
@@ -869,7 +888,6 @@
     "Reset to Default": "Скинути до початкових",
     "Reset to Defaults": "Скинути до початкових",
     "None": "Немає",
-    "Empty": "Порожньо",
     "Name": "Назва",
     "Description": "Опис",
     "Type": "Тип",
@@ -1047,8 +1065,8 @@
     "SPECTATE": "СПОСТЕРІГАТИ",
     "QUIT MISSION": "ВИЙТИ З МІСІЇ",
     "Quit Mission": "Вийти з місії",
-    "Select Home Airbase...": "Виберіть рідну базу...",
-    "Select Home Airbase": "Виберіть рідну базу",
+    "Select Home Airbase...": "Виберіть Початкову Базу...",
+    "Select Home Airbase": "Виберіть Початкову Базу",
 
     // ========== Map Screen ==========
     "MAP OPTIONS": "НАЛАШТУВАННЯ МАПИ",
@@ -1101,7 +1119,8 @@
     "MODE : LOG": "РЕЖИМ : ЛОГ",
     "LOWER SHAFT": "НИЖНІЙ ВАЛ",
     "UPPER SHAFT": "ВЕРХНІЙ ВАЛ",
-    "POWER [KW]": "ПОТУЖН. [кВт]",
+    "POWER [KW]": "ПОТУЖН.[кВт]",
+    "POWER[KW]": "ПОТУЖН.[кВт]",
     "TAIL DUCT": "ХВІСТ. КАНАЛ",
     "THRUST [kN]": "ТЯГА [кН]",
     "POWER": "ПОТУЖН.",
@@ -1117,6 +1136,13 @@
     "BAY": "ВІДСІК",
     "Tip": "Край",
     "TIP": "КРАЙ",
+    "ENG L": "Л. ДВИГ.",
+    "ENG R": "П. ДВИГ.",
+    "FL TURBINE": "ПЛ ТУРБ",
+    "FR TURBINE": "ПП ТУРБ",
+    "RL TURBINE": "ЗЛ ТУРБ",
+    "RR TURBINE": "ЗП ТУРБ",
+    "PROP": "ГВИНТ",
     "ALS: RDY": "АСП: ГОТ",
     "ENGINE LEFT": "ДВИГУН ЛІВО",
     "ENGINE RIGHT": "ДВИГУН ПРАВО",
@@ -1156,6 +1182,8 @@
     "AA": "ЗСУ",
     "SAM IR": "ЗРК ІЧ",
     "SAM R": "ЗРК Р",
+    "SAM\nIR": "ЗРК\nІЧ",
+    "SAM\nR": "ЗРК\nР",
     "IR SAM": "ІЧ ЗРК",
     "R SAM": "Р ЗРК",
     "BNKR": "БНКР",
@@ -1165,7 +1193,7 @@
     "LADS": "ЛАДС",
     "TRK": "ВАН",
     "CMD": "КП",
-    "MANDAPS": "ПЗРК",
+    "MANPADS": "ПЗРК",
     "TWR": "ВЕЖА",
     "HPAD": "В-МАЙД",
     "IFV": "БМП",
@@ -1264,7 +1292,7 @@
     "Dynamo Class Destroyer": "Есмінець класу Dynamo",
 
     "Infantry Squad": "Піхотне Відділення",
-    "Empty": "Порожньо"
+    "Empty": "Порожньо",
 
     // =========================================================================================
     // UNIT AND SHIP NAMES
@@ -1310,6 +1338,22 @@
     "Destroy Production Facility": "Знищити Виробничий Комплекс",
     "Destroy Research Facility": "Знищити Дослідницький Центр",
     "Sink Fleet Carrier": "Потопити Авіаносець",
+    "Destroy Support Vehicle Factories": "Знищити Заводи Техніки Підтримки",
+    "Destroy Armour Factories": "Знищити Бронетанкові Заводи",
+    "Primary: Capture": "Основна: Захопити",
+    "Capture Feldspar Airport": "Захопити Аеропорт Фельдспар",
+    "CaptureAirbase": "ЗахопитиАвіабазу",
+    "Destroy Boscali Nuclear Facility": "Знищити Ядерний Об'єкт Боскалі",
+    "Destroy Boscali Fuel Facility": "Знищити паливний Об'єкт Боскалі",
+    "Destroy Boscali Aircraft Facility": "Знищити Авіаційний Об'єкт Боскалі",
+    "Destroy Boscali Production Facility": "Знищити виробничий Об'єкт Боскалі",
+    "Destroy BDF Observation Post": "Знищити спостережний пункт BDF",
+    "Kill the BDF Feldspar Officers": "Ліквідувати офіцерів BDF Feldspar",
+    "Primary: Capture Feldspar Airport": "Основна: Захопити аеропорт Фельдспар",
+    "Destroy Nuclear Facility": "Знищити Ядерний Об'єкт",
+    "Active": "Активне",
+    "Primary": "Основна",
+    "Completed": "Виконано",
 
     "CI-22 factory": "Завод CI-22",
     "T/A-30 factory": "Завод T/A-30",
@@ -1327,6 +1371,7 @@
     "MBT factory": "Завод ОБТ",
     "SAM IR factory": "Завод ЗРК ІЧ",
     "SAM R factory": "Завод ЗРК Р",
+    "SPAAG factory": "Завод ЗСУ",
 
     // ========== Mission Editor ==========
     "New Mission": "Нова місія",
@@ -1639,6 +1684,18 @@
     "Purchase for\n$145m": "Купити за\n$145 млн",
     "Purchase for\n$225m": "Купити за\n$225 млн",
 
+    "Return\nCI-22 Cricket": "Вярнуць\nCI-22 Cricket",
+    "Return\nT/A-30 Compass": "Вярнуць\nT/A-30 Compass",
+    "Return\nUH-90 Ibis": "Вярнуць\nUH-90 Ibis",
+    "Return\nSAH-46 Chicane": "Вярнуць\nSAH-46 Chicane",
+    "Return\nA-19 Brawler": "Вярнуць\nA-19 Brawler",
+    "Return\nFS-12 Revoker": "Вярнуць\nFS-12 Revoker",
+    "Return\nFS-20 Vortex": "Вярнуць\nFS-20 Vortex",
+    "Return\nVL-49 Tarantula": "Вярнуць\nVL-49 Tarantula",
+    "Return\nKR-67 Ifrit": "Вярнуць\nKR-67 Ifrit",
+    "Return\nEW-25 Medusa": "Вярнуць\nEW-25 Medusa",
+    "Return\nSFB-81 Darkreach": "Вярнуць\nSFB-81 Darkreach",
+
     // ========== Graphics Settings Detail ==========
     "TEXTURE QUALITY": "ЯКІСТЬ ТЕКСТУР",
     "SHADOWS QUALITY": "ЯКІСТЬ ТІНЕЙ",
@@ -1705,7 +1762,7 @@
     "Heavy thermobaric guided bomb capable of devastating soft targets over a wide area. Best used against buildings or lightly defended groups of vehicles.": "Важка термобарична керована бомба, здатна знищувати неброньовані цілі на великій площі. Найкраще використовувати проти будівель або слабозахищених груп техніки.",
     "This glide bomb deploys folding wings, giving it an extended range from altitude. Guided by an optical seeker during the terminal phase, the PAB-80LR features a small radar cross-section and no IR signature.": "Ця плануюча бомба розгортає складані крила, що дає їй збільшену дальність під час скидання з висоти. Керована оптичною ГСН на кінцевому етапі, PAB-80LR відрізняється невеликою ЕПР та відсутністю теплового сліду.",
     "The Auger is a bunker busting gravity bomb with a precision guidance kit. It is capable of penetrating hardened structures before its large warhead detonates.": "Auger — це гравітаційна бетонобійна бомба з комплектом точного наведення. Вона здатна пробивати укріплені конструкції до того, як здетонує її велика бойова частина.",
-    "Guided thermonuclear bomb, set to tactical yield. Detonates after a minimum time delay of 8 seconds, and when below 150m (500ft) altitude. For laydown delivery, it will deploy a parachute to allow the bomb to survive impact with the ground when dropped below 300m(1000ft).": "Керована термоядерна бомба, налаштована на тактичну потужність. Детонує після мінімальної затримки 8 секунд, на висоті нижче 150м (500 футів). При скиданні з малих висот нижче 300м (1000 футів) вона випускає парашут, що дозволяє бомбі пережити удар об землю.",
+    "Guided thermonuclear bomb, set to tactical yield. Detonates after a minimum time delay of 8 seconds, and when below 150m (500ft) altitude. For laydown delivery, it will deploy a parachute to allow the bomb to survive impact with the ground when dropped below 300m (1000ft).": "Керована термоядерна бомба, налаштована на тактичну потужність. Детонує після мінімальної затримки 8 секунд, на висоті нижче 150м (500 футів). При скиданні з малих висот нижче 300м (1000 футів) вона випускає парашут, що дозволяє бомбі пережити удар об землю.",
     "Guided thermonuclear bomb, set to strategic yield. Detonates after a minimum time delay of 16 seconds, when below 500m (1650ft) altitude. Unless being lofted, level bombing should be carried out at a minimum of 1300m(4300ft).": "Керована термоядерна бомба, налаштована на стратегічну потужність. Детонує після мінімальної затримки 16 секунд, на висоті нижче 500м (1650 футів). За винятком бомбометання з кабрування, горизонтальне бомбометання слід проводити з висоти мінімум 1300м (4300 футів).",
     "Medium-range heat seeking missile ideal for attacking fast and maneuverable aircraft": "Ракета середньої дальності з тепловим наведенням, ідеальна для атаки швидких і маневрених літаків",
     "Using a combination of inertial guidance and terminal radar homing, the Scythe can engage aerial targets at beyond visual range": "Використовуючи комбінацію інерціального наведення та радіолокаційного самонаведення на кінцевій ділянці, Scythe може вражати повітряні цілі за межами візуальної видимості",
@@ -1939,16 +1996,16 @@
 
     // ========== MISSIONS, SCENARIOS AND TUTORIAL DESC ==========
 
-    //--- Missions ---
-    "Fly a T/A-30 Compass on a ground attack mission. Use missiles, rockets, bombs and guns to destroy a BDF convoy of lightly defended vehicles.": "Здійсніть виліт на T/A-30 Compass для атаки наземних цілей. Використовуйте ракети, бомби та гармати, щоб знищити конвой легкозахищеної техніки BDF.",
-    "Back to basics with bombs & guns on a CI-22 Cricket in a low-intensity engagement.": "Повернення до основ: бомби та гармати на CI-22 Cricket у зіткненні низької інтенсивності.",
+    //--- Mission Descriptions ---
+    "Fly a T/A-30 Compass on a ground attack mission. Use missiles, rockets, bombs and guns to destroy a BDF convoy of lightly defended vehicles.": "Здійсніть виліт на T/A-30 Compass для атаки наземних цілей. Використовуйте ракети, бомби та гармати, щоб знищити конвой легкозахищеної техніки BDF.",  
+    "Back to basics with bombs & guns on a CI-22 Cricket in a low-intensity engagement.": "Повернення до основ: бомби та гармати на CI-22 Cricket у зіткненні низької інтенсивності.", 
     "In preparation for a large air raid, use the SAH-46 Chicane to neutralise several long range SAM systems.": "Під час підготовки до масштабного авіанальоту використовуйте SAH-46 Chicane для нейтралізації кількох далекобійних ЗРК.",
     "Use the FS-12 Revoker to intercept a volley of cruise missiles launched at your base from Primeva.": "Використовуйте FS-12 Revoker, щоб перехопити залп крилатих ракет, запущених по вашій базі з Прімеви.",
     "Fly the T/A-30 Compass in an intense dogfight - your side is outnumbered 8 to 5.": "Керуйте T/A-30 Compass у інтенсивному повітряному бою — ворог має чисельну перевагу 8 до 5.",
     "Prevent a column of vehicles from crossing the bridge to Boscali Island, before neutralizing the attack at its source.": "Не дайте колоні техніки перетнути міст до острова Боскалі, перш ніж нейтралізувати атаку в її зародку.",
-    "Use various SEAD/DEAD abilities unique to the EW-25 Medusa to facilitate an attack against a heavily defended ammo dump.": "Використовуйте унікальні можливості ППОП/ЗППО літака EW-25 Medusa, щоб сприяти атаці на добре захищений склад боєприпасів.",
-    "Fly an SAH-46 Chicane under the radar to eliminate an enemy forward arming and refueling point.": "Здійсніть виліт на SAH-46 Chicane нижче зони виявлення радарів, щоб знищити ворожий передовий пункт озброєння та заправки.",    
-    "Fly the SFB-81 Darkreach on a bombing mission to destroy a PALA vehicle depot on a heavily defended airbase.": "Здійсніть бомбовий виліт на SFB-81 Darkreach, щоб знищити депо техніки PALA на добре захищеній авіабазі.",  
+    "Use various SEAD/DEAD abilities unique to the EW-25 Medusa to facilitate an attack against a heavily defended ammo dump.": "Використовуйте унікальні можливості SEAD/DEAD літака EW-25 Medusa, щоб сприяти атаці на добре захищений склад боєприпасів.",
+    "Fly an SAH-46 Chicane under the radar to eliminate an enemy forward arming and refueling point.": "Здійсніть виліт на SAH-46 Chicane нижче зони виявлення радарів, щоб знищити ворожий передовий пункт озброєння та заправки.",
+    "Fly the SFB-81 Darkreach on a bombing mission to destroy a PALA vehicle depot on a heavily defended airbase.": "Здійсніть бомбовий виліт на SFB-81 Darkreach, щоб знищити депо техніки PALA на добре захищеній авіабазі.",
     "Launch from an aircraft carrier and tackle a diverse set of targets in a versatile aircraft.": "Злітайте з авіаносця та атакуйте різноманітні цілі на універсальному літаку.",
     "After the success of operation Point Blank, the BDF looks to take ground inside Agrapol and establish a new forward base.\n\nUse the versatile VL-49 Tarantula - first in delivering units to capture a location, and then as a gunship to provide heavy fire support.": "Після успіху місії Впритул, BDF закріплюється в Аграполі. Використовуйте VL-49 Tarantula: спочатку для висадки десанту, далі — як ганшіп для вогневої підтримки.",
     "An opportunity arises to take possession of a valuable piece of sea mining infrastructure. PALA and BDF try to beat each other to the punch.": "З'являється можливість захопити цінний об'єкт морської видобувної інфраструктури. PALA та BDF намагаються випередити один одного.",
@@ -1960,6 +2017,7 @@
     "Learn how to designate targets and use missiles to destroy them. For this lesson you will be piloting the T/A-30 Compass trainer aircraft.": "Навчіться призначати цілі та використовувати ракети для їх знищення. У цьому уроці ви будете\nпілотувати навчальний літак T/A-30 Compass.",
     "Learn how to use flares to defeat IR missiles. For this lesson you will be piloting the T/A-30 Compass trainer aircraft.": "Навчіться використовувати ЛТЦ для протидії ІЧ-ракетам. У цьому уроці ви пілотуватимете навчальний літак T/A-30 Compass.",
     "Learn how to defeat semi-active radar homing missiles. For this lesson you will be piloting the T/A-30 Compass trainer aircraft.": "Навчіться протидіяти ракетам із напівактивним РЛ-наведенням. У цьому уроці ви пілотуватимете навчальний літак T/A-30 Compass.",
+
     // --- Scenarios ---
     "\"War? No. This is merely a peacekeeping initiative.\"\n\nLow intensity fighting over the disputed zone. Each side operates from a single forward airbase and must destroy the other's. Aircraft are restricted to counter-insurgency platforms, trainers, helicopters, and transports. No medium or long range air-to-air missiles are available. Air battles are resolved either with guns, or the relatively short ranged IRM-S1.": "«Війна? Ні. Це лише миротворча ініціатива»\n\nБої низької інтенсивності за спірну зону. Кожна сторона діє з однієї передової авіабази та має знищити базу супротивника. Доступні лише протипартизанські літаки, навчальні борти, гелікоптери та транспорти. Ракети П-П середньої та великої дальності відсутні. Повітряні бої ведуться гарматами або ракетами малої дальності IRM-S1.",
     "Challenging co-op mission where PALA provokes the BDF navy, and must defend Vigil Cay airbase from a naval attack.": "Складна кооперативна місія: PALA провокує флот BDF. Ви маєте захистити авіабазу Вігіл-Кей від морської атаки.",
