@@ -1,29 +1,58 @@
-# Nuclear Option — Ukrainian Localization Patch (Патч українською)
+# Nuclear Option — Український патч (Localization Patch)
 
-Українська локалізація для Nuclear Option.
+Мод української локалізації для Nuclear Option. Працює як плагін BepInEx і перекладає інтерфейс, енциклопедію, підказки й випливаючі описи — загалом **1 834 записи**.
+
+## Вимоги
+
+- [Nuclear Option](https://store.steampowered.com/app/2230590/Nuclear_Option/) (Steam, Ранній доступ 0.32.5+)
+- [BepInEx 5.x](https://github.com/BepInEx/BepInEx/releases)
 
 ## Встановлення
 
-1. Встановіть [BepInEx 5](https://github.com/BepInEx/BepInEx/releases) у папку гри
-2. Скопіюйте вміст zip-архіву у `BepInEx/plugins/`
-3. Запустіть гру
+1. Установіть **BepInEx 5.x** у папку гри.
+   ```
+   Приклад: C:\Program Files (x86)\Steam\steamapps\common\Nuclear Option\
+   ```
 
-## Файли
+2. Запустіть гру **один раз** і закрийте її. (Це створить структуру папок BepInEx.)
 
-- `LocalizationPatch.dll` — основний плагін
-- `ua.json` — файл перекладу
-- `Tektur-Reg.ttf` — шрифт з підтримкою кирилиці
+3. Скопіюйте всі файли з цього репозиторію до:
+   ```
+   [Папка гри]\BepInEx\plugins\LocalizationPatch\
+   ```
+   > Якщо папки «LocalizationPatch» немає, створіть її вручну.
 
-## Користувацький шрифт
+4. Запустіть гру — **український переклад застосується автоматично**.
 
-Ви можете замінити шрифт — просто покладіть будь-який `.ttf` або `.otf` файл у папку `plugins/`. Плагін автоматично визначить його.
+### Автоматичний інсталятор (альтернатива)
 
-**Важливо:** використовуйте статичні версії шрифтів. Variable fonts не працюють коректно в Unity.
+https://github.com/9138noms/NuclearOption-LocalizationInstaller/releases/latest
+
+## Включені файли
+
+| Файл | Опис |
+|------|------|
+| `LocalizationPatch.dll` | Плагін перекладу |
+| `ua.json` | Дані українського перекладу (1 834 записи) |
+| `Tektur-Reg.ttf` | Шрифт для відображення кирилиці |
+
+## Гарячі клавіші у грі
+
+| Клавіша | Функція |
+|---------|---------|
+| `F10` | Показати/приховати оверлей налагодження |
+| `Ctrl+F10` | Перезавантажити дані перекладу (гаряче перезавантаження) |
+
+## Примітки
+
+- Назви фракцій (PALA, BDF, BOSCALI, PRIMEVA, FFL, LMA) і кодові імена техніки / зброї (Compass, Alkyon AB-4, FGA-57 Anvil, IRM-S2 тощо) залишаються англійською.
+- У разі проблем мову можна вказати вручну у файлі `BepInEx\config\com.noms.localizationpatch.cfg`, установивши `Language = ua`.
 
 ## Переклад
 
-Daewoo Abrams64
+- Початковий машинний переклад — виправлення від спільноти вітаються через PR або Issue.
+- Плагін / основа: https://github.com/9138noms/NuclearOption-TranslationToolkit
 
-## Версія
+## Ліцензія шрифту
 
-v2.4.0
+Tektur — [SIL Open Font License 1.1](https://fonts.google.com/specimen/Tektur)
