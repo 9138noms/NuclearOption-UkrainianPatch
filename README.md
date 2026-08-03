@@ -1,10 +1,10 @@
 # Nuclear Option — Український патч (Localization Patch)
 
-Мод української локалізації для Nuclear Option. Працює як плагін BepInEx і перекладає інтерфейс, енциклопедію, підказки й випливаючі описи — загалом **1 834 записи**.
+Мод української локалізації для Nuclear Option. Працює як плагін BepInEx і перекладає інтерфейс, енциклопедію, підказки й випливаючі описи — загалом **2 084 записи**.
 
 ## Вимоги
 
-- [Nuclear Option](https://store.steampowered.com/app/2230590/Nuclear_Option/) (Steam, Ранній доступ 0.32.5+)
+- [Nuclear Option](https://store.steampowered.com/app/2230590/Nuclear_Option/) (Steam, Ранній доступ 0.34)
 - [BepInEx 5.x](https://github.com/BepInEx/BepInEx/releases)
 
 ## Встановлення
@@ -33,8 +33,9 @@ https://github.com/9138noms/NuclearOption-LocalizationInstaller/releases/latest
 | Файл | Опис |
 |------|------|
 | `LocalizationPatch.dll` | Плагін перекладу |
-| `ua.json` | Дані українського перекладу (1 834 записи) |
-| `Tektur-Reg.ttf` | Шрифт для відображення кирилиці |
+| `ua.json` | Дані українського перекладу (2 084 записи) |
+| `Exo2-Regular.ttf` | Шрифт для відображення кирилиці (використовується) |
+| `Tektur-Reg.ttf` | Попередній шрифт, залишено для сумісності |
 
 ## Гарячі клавіші у грі
 
