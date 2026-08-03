@@ -49,6 +49,7 @@
     "Community": "Спільнота",
     "DONATE": "ПІДТРИМАТИ",
     "Donate": "Підтримати",
+    "Merch Store": "Мерчендайз",
 
     // ========== Workshop  ==========
     "Enter text...": "Введіть текст...",
@@ -129,6 +130,7 @@
     "Carrier Duel": "Дуель авіаносців",
     "Confrontation": "Протистояння",
     "Domination": "Домінування",
+    "Breaking the Atoll": "Руйнування атола",
     "Terminal Control": "Термінальний контроль",
     "Terminal Control Co-op as BDF": "Термінальний контроль (за BDF)",
     "Terminal Control Co-op as PALA": "Термінальний контроль (за PALA)",
@@ -663,6 +665,8 @@
     "AT-145 Emplacement": "Позиція AT-145",
     "Fuel Depot": "Склад палива",
     "Ammo Dump": "Склад боєприпасів",
+    "12.7mm MG Emplacement": "Позиція 12.7-мм кулемета",
+    "Infantry Bunker": "Піхотний бункер",
 
     // ========== Kill / Score ==========
     "KILL": "ВБИТО",
@@ -821,6 +825,49 @@
     "Hit Markers": "Маркери влучань",
     "Show Hit Markers": "Показувати маркери влучань",
 
+    // ========== Social & Accessibility Menu ==========
+    "SOCIAL": "СОЦІАЛЬНЕ",
+    "ACCESSIBILITY": "ДОСТУПНІСТЬ",
+
+    // ========== Social & Block Lists ==========
+    "Block Lists": "Списки блокування",
+    "Muted": "Заглушені",
+    "Blocked": "Заблоковані",
+    "Kicked": "Вигнані",
+    "Banned": "Забанені",
+    "Players who are muted in chat for current session. Cleared when restarting game.": "Гравці, заглушені в чаті на поточну сесію. Скидається при перезапуску гри.",
+    "Players who are permanently muted in chat, and hides games they host in Multiplayer lobby list": "Гравці, назавжди заглушені в чаті; також приховує створені ними ігри у списку лобі.",
+    "Players who are kicked from current session. Cleared when making a lobby.": "Гравці, вигнані з поточної сесії. Скидається при створенні лобі.",
+    "Players who are permanently banned from joining games you host.": "Гравці, яким назавжди заблоковано доступ до створених вами ігор.",
+
+    // ========== Activity & Name Settings ==========
+    "ACTIVITY SETTINGS": "НАЛАШТУВАННЯ АКТИВНОСТІ",
+    "Steam Rich Presence": "Steam Rich Presence",
+    "Discord Rich Presence": "Discord Rich Presence",
+    "Player Name Settings": "Налаштування імені гравця",
+    "Show Player Index": "Показувати індекс гравця",
+    "Show Server Tag": "Показувати тег сервера",
+    "Chat And Leaderboard": "У чаті та таблиці лідерів",
+    "Everywhere": "Усюди",
+
+    // ========== Mission Editor / Controls ==========
+    "Vote Kick Yes": "Голосувати «За»",
+    "Vote Kick No": "Голосувати «Проти»",
+    "Select Unit Mode": "Режим вибору одиниці",
+    "Translate Unit Mode": "Режим переміщення одиниці",
+    "Rotate Unit Mode": "Режим обертання одиниці",
+    "Toggle Left Panel": "Увімк./Вимк. ліву панель",
+
+    // ========== Theme Settings ==========
+    "THEME SETTINGS": "НАЛАШТУВАННЯ ТЕМИ",
+    "THEME": "ТЕМА",
+    "Rename": "Перейм.",
+    "Simple": "Простий",
+    "Advanced": "Розширений",
+    "Secondary": "Вторинний",
+    "Danger": "Небезпека",
+    "Open Themes Folder": "Відкрити папку тем"
+
     // ========== HUD Settings ==========
     "HUD Scale": "Масштаб ІЛС",
     "HUD Size": "Розмір ІЛС",
@@ -915,6 +962,7 @@
     "Error": "Помилка",
     "Information": "Інформація",
     "Are you sure?": "Ви впевнені?",
+    "Are you sure you want to leave?": "Ви впевнені, що хочете вийти?",
     "Version": "Версія",
     "Statistics": "Статистика",
     "Options": "Опції",
@@ -1202,6 +1250,13 @@
     "VSI": "ВШ",
     "RADAR": "РАДАР",
     "MODE : EW": "РЕЖИМ : РЕБ",
+    "Stability Assist Disabled": "Допомогу в стабілізації ВИМКНЕНО",
+    "Stability Assist Enabled": "Допомогу в стабілізації УВІМКНЕНО",
+    "Stability Assist": "Допомогу в стабілізації",
+    "Vectoring Mode set to Manual": "Режим вектора тяги: Ручний",
+    "Vectoring Mode set to Forward": "Режим вектора тяги: Вперед",
+    "Vectoring Mode set to": "Режим вектора тяги:",
+    "NOZZLE": "СОПЛО",
     "RADOME": "РАДОМ",
     "ENG 1": "ДВИГ 1",
     "ENG 2": "ДВИГ 2",
@@ -1336,6 +1391,8 @@
     "MSV Nuclear Ballistic Missile Launcher": "СВТ ПУ Ядер. Ракет",
     "MSV R9 Stratolance Launcher": "СВТ ПУ Stratolance R9",
     "StratoLance R9 Launcher": "ПУ Stratolance R9",
+    "MSV MLRS": "СВТ РСЗВ",
+    "HLT Mobile Artillery": "ВВТ Мобільна артилерія",
 
     // --- Ship Types ---
     "Corvette": "Корвет",
@@ -1351,6 +1408,7 @@
     "Dynamo Class Destroyer": "Есмінець класу Dynamo",
     "Cursor Class LFD": "ЛППЗ класу Cursor",
     "Argus Class Frigate": "Фрегат класу Argus",
+    "Surf Class Patrol Boat": "Патрульний катер класу Surf",
 
     "Infantry Squad": "Піхотне Відділення",
     "Empty": "Порожньо",
@@ -1765,6 +1823,7 @@
     
     "Purchase for\n$11,5m": "Купити за\n$11,5 млн",
     "Purchase for\n$21,8m": "Купити за\n$21,8 млн",
+    "Purchase for\n$28,9m": "Купити за\n$28,9 млн",
     "Purchase for\n$29,5m": "Купити за\n$29,5 млн",
     "Purchase for\n$31m": "Купити за\n$31 млн",
     "Purchase for\n$36m": "Купити за\n$36 млн",
@@ -1778,6 +1837,7 @@
 
     "Return\nCI-22 Cricket": "Повернути\nCI-22 Cricket",
     "Return\nT/A-30 Compass": "Повернути\nT/A-30 Compass",
+    "Return\nVT-7 Vagrant": "Повернути\nVT-7 Vagrant",
     "Return\nUH-90 Ibis": "Повернути\nUH-90 Ibis",
     "Return\nSAH-46 Chicane": "Повернути\nSAH-46 Chicane",
     "Return\nA-19 Brawler": "Повернути\nA-19 Brawler",
@@ -1790,6 +1850,7 @@
     "Return\nAlkyon AB-4": "Повернути\nAlkyon AB-4",
 
     "Return A-19 Brawler": "Повернути A-19 Brawler",
+    "Return VT-7 Vagrant": "Повернути VT-7 Vagrant",
     "Return Alkyon AB-4": "Повернути Alkyon AB-4",
     "Return CI-22 Cricket": "Повернути CI-22 Cricket",
     "Return EW-25 Medusa": "Повернути EW-25 Medusa",
@@ -1803,6 +1864,7 @@
     "Return VL-49 Tarantula": "Повернути VL-49 Tarantula",
 
     "Sell\nA-19 Brawler": "Продати\nA-19 Brawler",
+    "Sell\nVT-7 Vagrant": "Продати\nVT-7 Vagrant",
     "Sell\nAlkyon AB-4": "Продати\nAlkyon AB-4",
     "Sell\nCI-22 Cricket": "Продати\nCI-22 Cricket",
     "Sell\nEW-25 Medusa": "Продати\nEW-25 Medusa",
@@ -1841,6 +1903,7 @@
     "The EW-25 is a short take-off, vertical landing (STOVL) support aircraft with a variety of powerful electronic warfare systems. Able to triangulate radar positions, jam enemy radar installations, suppress air defences, and even shoot down missiles with a high energy laser, a single Medusa can easily turn the tide of a battle.": "EW-25 — це літак підтримки з укороченим зльотом і вертикальною посадкою (УЗВП), оснащений різноманітними потужними системами радіоелектронної боротьби (РЕБ). Здатна тріангулювати позиції радарів, глушити ворожі радіолокаційні установки, придушувати ППО і навіть збивати ракети за допомогою високоенергетичного лазера, лише одна Medusa може легко змінити хід битви.",
     "Featuring powerful engines, a stealthy silhouette, and 4 large internal weapon bays, the SFB-81 Darkreach is a formidable bomber capable of deploying both conventional and nuclear weapons. Its blended wing design allows the Darkreach to conduct operations in a variety of flight regimes, from low-altitude penetrating strikes to standoff strategic bombardment.": "Маючи потужні двигуни, стелс-силует і 4 великих внутрішніх збройових відсіки, SFB-81 Darkreach є грізним бомбардувальником, здатним застосовувати як звичайну, так і ядерну зброю. Його конструкція за схемою «змішане крило» дозволяє Darkreach проводити операції в різноманітних режимах польоту — від низьковисотних проникаючих ударів до дистанційного стратегічного бомбардування.",
     "The Alkyon AB-4 is an advanced supersonic bomber with electronic warfare capabilities, designed to stealthily deliver nuclear or conventional payloads onto high value targets. 4 afterburning engines combined with variable geometry wings provide incredible top speed and enough maneuverability to evade aerial threats. If critically damaged, a crew escape capsule allows for safe ejection at any altitude or airspeed.": "Alkyon AB-4 — це сучасний надзвуковий бомбардувальник із можливостями РЕБ для прихованих ударів по пріоритетних цілях. Чотири форсажні двигуни у поєднанні з крилом змінної стріловидності забезпечують неймовірну максимальну швидкість та достатню маневреність. У разі критичного пошкодження рятувальна капсула екіпажу дозволяє безпечно катапультуватися на будь-якій висоті та швидкості.",
+    "Featuring a unique 3-post ducted thrust system, this trainer doubles as an affordable attack aircraft with VTOL capability. The Vagrant is highly maneuverable and capable of transonic speeds, while also featuring a radar to allow engagement of air targets at beyond visual range. Although lacking advanced stealth features, the VT-7 continues to serve as the backbone of BDF naval aviation.": "Оснащений унікальною триточковою системою тяги в кільцевих каналах, цей навчально-тренувальний літак також виконує роль доступного штурмовика з можливістю вертикального зльоту та посадки. Vagrant є високоманевреним і здатним досягати білязвукових швидкостей, а також оснащений радаром для ураження повітряних цілей за межами візуальної видимості. Незважаючи на відсутність передових стелс-технологій, VT-7 продовжує залишатися основою палубної авіації BDF.",
 
     // ========== Encyclopedia - Ship Descriptions ==========
     "An amphibious assault ship which can support rotary wing and V/STOL aircraft operations. It has a well deck from which it can launch landing craft, and it can perform shore bombardment with its 76mm cannon and dual-purpose 40mm point defence guns.": "Десантний корабель, який може підтримувати операції гвинтокрилих машин і літаків ЛВ/УЗП. Має докову камеру, з якої може запускати десантні катери, а також здатен здійснювати обстріл берега зі своєї 76-мм гармати та 40-мм універсальних гармат точкового захисту.",
@@ -1850,6 +1913,7 @@
     "Designed for rapidly delivering vehicles from Annex class assault carriers to landing points, this fast hovercraft can carry up to 80 tons of cargo and is equipped with an IRM-S1 launcher and heavy machine gun for self defense.": "Розроблений для швидкої доставки техніки з десантних кораблів класу Annex до точок висадки, це швидкісне судно на повітряній подушці може перевозити до 80 тонн вантажу і оснащене пусковою установкою IRM-S1 та великокаліберним кулеметом для самозахисту.",
     "Bristling with air defense weapons, the Argus class is a missile frigate designed to protect valuable assets from air attack. Capable of locking down airspace in a wide radius, it is an essential component of BDF naval doctrine. The Argus class is fitted with the NL-98 active radar homing missile, capable of engaging datalinked targets at beyond visual ranges.": "Оснащений численним зенітним озброєнням, клас Argus — це ракетний фрегат, призначений для захисту цінних об'єктів від повітряних атак. Здатний повністю перекривати повітряний простір у великому радіусі, він є важливим компонентом військово-морської доктрини BDF. Клас Argus оснащений ракетами NL-98 з активною РЛГСН, що здатні вражати цілі через даталінк за межами візуальної видимості.",
     "The Cursor class represents the vanguard of the BDF fleet. This littoral flight deck (LFD) is designed to rapidly deploy light VTOL aircraft from shallow waterways. It employs a small waterplane area twin hull for stability and speed, and mounts a variety of short-range defensive weapons including a laser air defense system.": "Клас Cursor є авангардом флоту BDF. Ця льотна палуба прибережної зони (ЛППЗ) призначена для швидкого розгортання легких літаків ЛВЗП із мілководдя. Корабель використовує двокорпусну конструкцію з малою площею ватерлінії для забезпечення стабільності та швидкості, а також несе різноманітне захисне озброєння малої дальності, включаючи лазерну систему ППО.",
+    "The Surf Class is an inshore patrol vessel, nominally used for border protection and anti-piracy duties. While it lacks the staying power of larger ships, its speed and complement of vertically launched AGM-48s can make it a credible threat to them. The 30mm main gun has proximity fused shells and provides some amount of self-protection against missile attack.": "Клас Surf — це прибережне патрульне судно, яке зазвичай використовується для охорони кордонів та боротьби з піратством. Хоча йому бракує живучості більших кораблів, його швидкість і комплект вертикально запущених ракет AGM-48 роблять його відчутною загрозою для них. Основна 30-мм гармата має снаряди з радіопідривниками та забезпечує певний рівень самозахисту від ракетних атак.",
 
     // ========== Encyclopedia - Building Descriptions ==========
     "Designed to supplement and eventually replace human sentries, the pillbox represents part of a networked perimeter monitoring system. The hardened structure houses a pair of autonomous 12.7mm machine gun turrets.": "Створений для доповнення і в кінцевому підсумку заміни живих вартових, дот є частиною мережевої системи моніторингу периметра. В укріпленій споруді розміщена пара автономних 12.7-мм кулеметних турелей.",
@@ -1876,6 +1940,8 @@
     "A reinforced hangar which stores fighter aircraft and a small complement of nuclear warheads. It is resistant to bombs and missiles, often requiring multiple direct hits or large/penetrating munitions to destroy it.": "Укріплений ангар, в якому зберігаються винищувачі та невеликий запас ядерних боєголовок. Він стійкий до бомб і ракет, і для його знищення часто потрібно кілька прямих влучань або важкі/бетонобійні боєприпаси.",
     "Vehicle deployment facility. Can defend itself with small arms fire.": "Пункт розгортання техніки. Може оборонятися вогнем зі стрілецької зброї.",
     "Reinforced bunker for storing ammunition and nuclear warheads. Can resupply units within 300m. It is resistant to bombs and missiles, often requiring multiple direct hits or large/penetrating munitions to destroy it.": "Укріплений бункер для зберігання боєприпасів і ядерних боєголовок. Може поповнювати боєкомплект підрозділів у радіусі 300 м. Він стійкий до бомб і ракет, і для його знищення часто потрібно кілька прямих влучань або важкі/бетонобійні боєприпаси.",
+    "This heavy machine gun mounted on a tripod is low-cost means of defending point targets from light vehicles and low flying helicopters. Its small size and low profile make it difficult to spot from a distance.": "Цей великокаліберний кулемет, встановлений на тринозі, є недорогим засобом захисту точкових цілей від легкої техніки та вертольотів, що летять на низькій висоті. Його малий розмір та низький профіль роблять його важкопомітним здалеку.",
+    "A concealed front line fighting position of an infantry team armed with light machine guns, grenades, and rocket launchers. Capable of ambushing unsuspecting vehicles that enter its field of fire.": "Прихована передова бойова позиція піхотної групи, озброєної ручними кулеметами, гранатами та гранатометами. Здатна влаштовувати засідки на техніку, що не підозрює небезпеки та входить у її сектор обстрілу.",
 
     // ========== Encyclopedia - Missile/Weapon Descriptions ==========
     "Optically guided 500kg bomb, ideal for attacking convoys and large buildings.": "500-кг бомба з оптичним наведенням, ідеально підходить для атаки на конвої та великі будівлі.",
@@ -1917,6 +1983,11 @@
     "This anti-ship missile has a very low altitude cruise profile with a pop-up terminal attack mode designed to penetrate ship defenses. Can be deployed from aircraft or launched from an Argus Class Frigate.": "Ця протикорабельна ракета має маршовий профіль на дуже малій висоті та режим атаки «гірка» на кінцевій ділянці для прориву корабельної ППО. Може скидатися з літаків або запускатися з фрегата класу Argus.",
     "A surface-launched active radar homing missile. Uses a combination of inertial guidance and terminal radar homing, and can be fired at aerial targets on datalink from beyond visual range.": "Ракета класу «поверхня-повітря» з активним радіолокаційним самонаведенням. Використовує комбінацію інерціального наведення та радіолокаційного самонаведення на кінцевій ділянці траєкторії, може запускатися по повітряних цілях за даними тактичної мережі поза межами візуальної видимості.",
     "Upon arrival within 2.5km (1.6mi) of the designated target, this 500kg glide bomb dispenses 12 GS25 submunitions capable of independently finding and targeting hostile units in the vicinity.": "Наблизившись на відстань 2.5 км (1.6 милі) до визначеної цілі, ця 500-кг плануюча авіабомба випускає 12 суббоєприпасів GS25, здатних самостійно знаходити та вражати ворожі одиниці поблизу.",
+    "An extended range guided artillery shell, using a combination of inertial navigation and terminal laser guidance to improve its accuracy.": "Керований артилерійський снаряд збільшеної дальності, що використовує комбінацію інерціальної навігації та кінцевого лазерного наведення для підвищення точності.",
+    "Long range artillery rocket with inertial navigation and terminal laser guidance to improve accuracy. A thermobaric warhead provides enhanced blast effects, ideal for demolishing buildings and defensive structures.": "Артилерійська ракета великої дальності з інерціальною навігацією та кінцевим лазерним наведенням для підвищення точності. Термобарична бойова частина забезпечує посилений вибуховий ефект, що ідеально підходить для руйнування будівель та оборонних споруд.",
+    "Ideal for attacking SAM sites at beyond visual range, this anti-radiation missile is capable of high range and speed and specifically targets radar emission sources. If not provided a target, it will identify its own from incoming radar signals.": "Ця протирадіолокаційна ракета, ідеальна для атак на позиції ЗРК з-за меж візуальної видимості, володіє великою дальністю та швидкістю і спеціально націлюється на джерела випромінювання радарів. Якщо ціль не задана, вона самостійно виявить її з вхідних радіолокаційних сигналів.",
+    "This anti-ship cruise missile can be launched from aircraft or vertically by the Dynamo class Destroyer. It uses a low altitude sea-skimming flight profile and supersonic speeds to penetrate enemy air defense systems.": "Ця протикорабельна крилата ракета може бути запущена з літака або вертикально есмінцем класу Dynamo. Вона використовує політ на малій висоті над гребенями хвиль і надзвукову швидкість для прориву систем ППО противника.",
+    "An active radar guided, beyond-visual-range air-to-air missile. The Scimitar maintains constant thrust and mid-course acceleration thanks to its ramjet engine, which can burn for up to a minute and gives the scimitar excellent speed and range.": "Ракета «повітря-повітря» з активним радіолокаційним самонаведенням для боїв за межами візуальної видимості. Scimitar підтримує постійну тягу та прискорення на маршевій ділянці завдяки прямоточному повітряно-реактивному двигуну, який може працювати до однієї хвилини та забезпечує ракеті чудову швидкість і дальність.",
 
     // ========== Encyclopedia - Vehicle Descriptions ==========
     "The LCV25 is a 4x4 all terrain vehicle, offered in AA or AT configurations, combining the agility of a light recon vehicle with the firepower of heavier fighting vehicles. It is air transportable, with 2 units fitting inside the cargo bay of a VL-49 Tarantula.": "LCV25 — це повнопривідний автомобіль 4x4, який пропонується у конфігураціях ППО або ПТРК, поєднуючи спритність легкої розвідувальної машини з вогневою міццю важчої бойової техніки. Він транспортується повітрям, 2 одиниці вміщаються у вантажний відсік VL-49 Tarantula.",
@@ -1960,6 +2031,11 @@
     "Long range launcher armed with a pair of 20kt Nuclear Piledrivers. Will deploy and fire automatically on known datalinked targets once the strategic escalation threshold is met.": "Пускова установка великої дальності, озброєна парою 20 кт ядерних ракет Piledrivers. Автоматично розгортається та стріляє по відомих цілях із даталінка, щойно досягнуто порогу стратегічної ескалації.",
     "Long-range air-to-air missile using a ramjet sustainer motor for beyond visual range (BVR) engagements. The AAM-36 takes approximately 20 seconds to reach a top speed of Mach 4.": "Ракета повітря-повітря великої дальності з прямоточним повітряно-реактивним маршовим двигуном для боїв за межами візуальної видимості (ДВБ). AAM-36 набирає максимальну швидкість 4 Махи приблизно за 20 секунд.",
     "Designed for long-range precision strikes against high value targets, this tactical ballistic missile leaves the atmosphere before reentering on a steep trajectory, exceeding Mach 4 on impact. The Piledriver is virtually impossible to intercept without long range missile defenses in the vicinity of the target.": "Створена для високоточних ударів великої дальності по особливо важливих цілях, ця тактична балістична ракета виходить з атмосфери перед тим, як повернутися крутою траєкторією, перевищуючи 4 Махи під час удару. Piledriver практично неможливо перехопити без систем ППО великої дальності поблизу цілі.",
+    "A small, remote-controlled, air-transportable combat engineering unit designed for light role forces. Combat engineering units are able to facilitate the repair and reconstruction of destroyed hangars, helipads and vehicle depots.": "Невелика, керована дистанційно, авіатранспортабельна бойова інженерна одиниця, розроблена для легких сил. Бойові інженерні одиниці здатні сприяти ремонту та відновленню зруйнованих ангарів, геліпортів і депо техніки.",
+    "This trailer is equipped with a 20mm rotary gun to provide point defence against shells, missiles, bombs, and low flying aircraft within a range of approximately 3km.": "Цей причіп оснащений 20-мм роторною гарматою для забезпечення точкового захисту від снарядів, ракет, бомб і літаків, що летять на низькій висоті, у радіусі приблизно 3 км.",
+    "18-tube Multiple Launch Rocket System installed on an MSV chassis, providing mobile rocket artillery.": "18-ствольна реактивна система залпового вогню, встановлена на шасі СВТ, що забезпечує мобільну реактивну артилерію.",
+    "This advanced and highly mobile long-range artillery system fires 155mm laser guided shells. Capable of bombarding targets 40km away at a sustained 5 rounds per minute, the HLT Mobile Artillery will frequently relocate to avoid return fire.": "Ця сучасна та високомобільна артилерійська система великої дальності стріляє 155-мм снарядами з лазерним наведенням. Здатна обстрілювати цілі на відстані до 40 км зі стабільною скорострільністю 5 пострілів за хвилину, ВВТ Мобільна артилерія часто змінює позицію для уникнення вогню у відповідь.",
+    "A Modular Support Vehicle equipped with a 20mm rotary gun to provide point defence against shells, missiles, bombs, and low flying aircraft within a range of approximately 3km.": "Модульний транспортний засіб, оснащений 20-мм роторною гарматою для забезпечення точкового захисту від снарядів, ракет, бомб та літаків, що летять на низькій висоті, у радіусі приблизно 3 км.",
 
     // ========== Encyclopedia - Scenery/Other Descriptions ==========
     "Structural element": "Конструктивний елемент",
@@ -2103,6 +2179,55 @@
     "Jamming a ship's radar can greatly reduce the ability of its Close In Weapon Systems (CIWS) turrets to track and engage targets.": "Постановка завад радару корабля може значно знизити здатність його турелей ЗАК відстежувати та уражати цілі.",
     "The M12 Jackknife is a combat engineering vehicle uniquely developed for airborne troops to allow them to fortify remote locations. Its capacity as an engineering vehicle is also useful in maintaining and repairing airbase structures.": "M12 Jackknife — це бойова інженерна машина, спеціально розроблена для повітряно-десантних військ, щоб дозволити їм укріплювати віддалені позиції. Її можливості як інженерної машини також корисні для обслуговування та ремонту споруд авіабаз.",
 
+    // ========== Did You Know? Hint Bodies (115-160) ==========
+    "The engine of your aircraft can be stopped and started mid-flight with a dedicated keybind or a radial menu action.": "Двигун вашого літака можна зупинити і запустити прямо в польоті за допомогою спеціальної клавіші або дії з кругового меню.",
+    "The cargo hook can be used to airlift ground units. UH-90 Ibis can lift up to 6 tons, while the VL-49 Tarantula can lift up to 20 tons.": "Вантажний гак можна використовувати для транспортування наземних одиниць повітрям. UH-90 Ibis може піднімати до 6 тонн, тоді як VL-49 Tarantula — до 20 тонн.",
+    "The KR-67 Ifrit has side weapon bays (sometimes referred to as 'heater bays') designed to accommodate a single IRM-S2 each.": "KR-67 Ifrit має бічні збройові відсіки (іноді їх називають «відсіками ІЧ-ракет»), призначені для розміщення однієї ракети IRM-S2 кожен.",
+    "The Hexhound is a bullet resistant 6x6 UGV chassis. It has a top speed off-road of 50km/h and over 100km range on a single charge.": "Hexhound — це куленепробивне шасі НБТК (наземного безпілотника) 6x6. Воно має максимальну швидкість по бездоріжжю 50 км/год і запас ходу понад 100 км на одному заряді.",
+    "As they have no crew or dismounts, Unmanned Ground Vehicles (UGV) can not capture and control locations.": "Оскільки у них немає екіпажу чи десанту, наземні безпілотні транспортні засоби (НБТК) не можуть захоплювати і контролювати локації.",
+    "Ships are relatively unarmored, and have large volumes of ammunition stored deep inside them. Sometimes only a single hit can be completely catastrophic.": "Кораблі відносно неброньовані і мають великі обсяги боєприпасів, що зберігаються глибоко всередині. Іноді лише одне влучання може стати абсолютно фатальним.",
+    "Weapons stored on external hardpoints will increase the Radar Cross-Section (RCS) of an aircraft.": "Зброя, розміщена на зовнішніх точках підвіски, збільшує ефективну площу розсіювання (ЕПР) літака.",
+    "In a protracted fight, ensuring that your anti-air defenses are continually supplied with missiles is crucial. Munitions can be delivered by air or by munitions trucks.": "У затяжному бою критично важливо забезпечити безперервне постачання ракет для ваших систем ППО. Боєприпаси можуть доставлятися повітрям або вантажівками з боєприпасами.",
+    "Jailbroken versions of Hexhounds can engage targets autonomously, removing the need for costly human oversight.": "Зламані версії Hexhound можуть атакувати цілі автономно, усуваючи потребу в дорогому нагляді людини.",
+    "The M12 jackknife, despite only weighing 6 tons, is able to punch well above its weight as an earthmover by using its internal capacity as ballast.": "M12 Jackknife, незважаючи на вагу лише 6 тонн, здатна виконати набагато більший обсяг робіт як землерийна машина, використовуючи свій внутрішній об'єм як баласт.",
+    "Radar equipped planes can generate datalink contacts from enemy surface radars. The EW-25 Medusa can generate a contact from any enemy radar source.": "Оснащені радаром літаки можуть створювати контакти в системі даталінк на основі ворожих наземних радарів. EW-25 Medusa може створювати контакт від будь-якого ворожого джерела радіолокаційного сигналу.",
+    "You can order manned turrets on your aircraft to Hold fire by pressing the 'Toggle Turret Control' button.": "Ви можете наказати пілотованим турелям на вашому літаку припинити вогонь, натиснувши кнопку «Перемкнути керування туреллю».",
+    "Field entrenchments do an excellent job of protecting ground units from direct fire. They do nothing to stop air strikes.": "Польові укріплення чудово захищають наземні одиниці від прямого вогню. Проте вони ніяк не захищають від авіаударів.",
+    "Naval Supply containers can only be spawned from airbases on land. When dropped over water they will float, and can be picked up by ships within 200m.": "Морські контейнери постачання можна створювати лише на наземних авіабазах. При скиданні на воду вони плавають, і їх можуть підбирати кораблі в радіусі 200 м.",
+    "Factories produce units over time, which are then deployed from vehicle depots and hangars.": "Заводи з часом виробляють одиниці техніки, які потім розгортаються з баз техніки та ангарів.",
+    "Vehicles deployed from an aircraft's cargo bay at altitude can land safely by parachute.": "Техніка, скинута з вантажного відсіку літака на висоті, може безпечно приземлитися на парашуті.",
+    "Bombs have a minimum 4-second arming delay. Take this into account when dropping them and check the Time of Flight indication on your HUD.": "Для безпеки бомби мають затримку зведення підривника щонайменше 4 секунди. Враховуйте це при їх скиданні та перевіряйте індикацію часу польоту на вашому ІЛС.",
+    "Using the afterburner will increase your infrared signature and greatly reduces the relative effectiveness of flares.": "Увімкнення форсажу збільшує ваш інфрачервоний слід і значно знижує відносну ефективність теплових пасток.",
+    "The UH-90 Ibis is a medium-sized utility helicopter, with two contra-rotating coaxial rotors and push props. It can use its dual 40mm grenade launchers firing from its side windows to clear hot landing zones.": "UH-90 Ibis — це середній багатоцільовий вертоліт із двома співвісними роторами протилежного обертання та штовхаючими гвинтами. Він може використовувати свої подвійні 40-мм гранатомети, стріляючи з бічних вікон, для зачистки гарячих зон висадки.",
+    "Aircraft without built-in ECM can take an ECM Pod on an external hardpoint to help defeat radar guided missiles.": "Літаки без вбудованого генератора перешкод можуть взяти контейнер РЕБ на зовнішню точку підвіски, щоб захиститися від ракет із радіолокаційним наведенням.",
+    "You can issue movement orders to friendly ground units by selecting them on the map, and then right-clicking where you want them to go to.": "Ви можете віддавати накази на переміщення дружнім наземним одиницям, вибравши їх на мапі, а потім клікнувши правою кнопкою миші там, куди ви хочете, щоб вони вирушили.",
+    "The Radar Cross-Section (RCS) of an aircraft will decrease when it expends weapons on its external pylons.": "Ефективна площа розсіювання (ЕПР) літака зменшиться, коли він скине зброю з зовнішніх пілонів.",
+    "The fire suppression system will automatically contain engine fires, but a fuel fire outside the engine will spread and consume an aircraft.": "Система пожежогасіння автоматично локалізує пожежі у двигуні, але загоряння палива поза двигуном пошириться і знищить літак.",
+    "Anti-radiation missiles are able to deal catastrophic damage to the Shard Class Corvette because its radar is located close to its bridge.": "Протирадіолокаційні ракети здатні завдати катастрофічної шкоди корвету класу Shard, оскільки його радар розташований близько до містка.",
+    "Press 'Center View' when in orbit mode around your aircraft to enter the chase mode, with 10 preset point of views, accessible with the numpad 0–9 keys.": "Натисніть «Відцентрувати огляд» у режимі обертання навколо вашого літака, щоб увійти в режим переслідування з 10 попередньо встановленими ракурсами, доступними за допомогою цифрового блоку (NumPad) 0–9.",
+    "Main battle tanks are heavily armored, but can still be defeated by aerial 30mm cannon fire by shooting into the engine bay or through the rear or roof of the turret.": "Основні бойові танки мають потужну броню, але їх все одно можна знищити вогнем авіаційної 30-мм гармати, якщо стріляти в моторний відсік, або в задню чи верхню частину башти.",
+    "The PAB-80LR is small enough to fit inside most aircraft weapon bays, which provides stealth aircraft with fit for purpose stand-off attack weapons.": "PAB-80LR достатньо мала, щоб поміститися у збройових відсіках більшості літаків, що надає стелс-літакам відповідну зброю для дистанційних атак.",
+    "A GPO-N has a delay fuse that only lasts for up to 16 seconds, but creates radioactive residue that lasts for years.": "GPO-N має підривник із затримкою до 16 секунд, але створює радіоактивний осад, який залишатиметься роками.",
+    "Carrying infantry in a cargo aircraft provide it with the ability to capture airbases.": "Перевезення піхоти на борту транспортного літака надає йому можливість захоплювати авіабази.",
+    "Bombs generally have much heavier casings than missiles, and as such they are more resistant to anti-air lasers.": "Бомби зазвичай мають набагато важчий корпус, ніж ракети, і тому вони стійкіші до лазерів ППО.",
+    "Small emplacements can remain hidden until they fire, giving them the ability to ambush low flying aircraft.": "Малі вогневі позиції можуть залишатися прихованими, поки не відкриють вогонь, що дає їм можливість влаштовувати засідки на літаки, які летять низько.",
+    "The Medusa's laser's effectiveness is affected by distance, and its maximum effective range is 15km. Using it at short range delivers more energy to a target, even burning aircraft at very short range.": "На ефективність лазера Medusa впливає відстань, а його максимальна ефективна дальність становить 15 км. Використання лазера на близькій відстані передає цілі більше енергії, що навіть дозволяє спалювати літаки на зовсім малих дистанціях.",
+    "Helicopters are typically fitted with an overrunning clutch that allows the rotor side of the drivetrain to rotate at a higher speed than the engine side.": "Гвинтокрили зазвичай оснащені муфтою вільного ходу, яка дозволяє роторній частині трансмісії обертатися з більшою швидкістю, ніж сторона двигуна.",
+    "Ballistic Missile Launchers will hold fire until the strategic threshold is met. Once the strategic threshold is met, they will unleash a devastating barrage on all known high value targets.": "Пускові установки балістичних ракет утримуються від вогню, поки не буде досягнуто стратегічного порогу. Щойно стратегічний поріг досягнуто, вони випускають нищівний залп по всіх відомих пріоритетних цілях.",
+    "Vortex Ring State is a dangerous aerodynamic condition where a rotor disc stops producing lift due to ingesting its own downwash. It can be escaped from by applying full power and moving laterally.": "Режим вихрового кільця — це небезпечний аеродинамічний стан, коли роторний диск перестає створювати підйомну силу через всмоктування власного низхідного потоку. Вийти з нього можна, давши повну потужність і змістившись убік.",
+    "Units that can store nuclear warheads include Munitions Bunkers, Hardened Shelters, and Aircraft Carriers. Destroy these to deny the enemy the ability to use nukes.": "Об'єкти, що можуть зберігати ядерні боєголовки, включають бункери боєприпасів, захищені укриття та авіаносці. Знищіть їх, щоб позбавити ворога можливості застосовувати ядерну зброю.",
+    "Newly produced nuclear warheads will be distributed amongst storage bunkers and hardened shelters at each airbase.": "Новостворені ядерні боєголовки розподіляються по сховищах-бункерах та захищених укриттях на кожній авіабазі.",
+    "Ground units in need of resupply must consume munitions to do so. Munitions are stored in munitions bunkers & ammo dumps. Munitions trucks will automatically ferry ammo to units needing resupply.": "Наземні одиниці, які потребують поповнення запасів, мають витрачати боєприпаси для цього. Боєприпаси зберігаються в бункерах боєприпасів та складах боєприпасів. Вантажівки боєприпасів автоматично підвозитимуть снаряди до підрозділів, що потребують поповнення.",
+    "Every aircraft has a distributed aperture optical detection system, which will automatically scrutinize and identify contacts for you inside several kilometers' range.": "Кожен літак має оптичну систему виявлення з розподіленою апертурою, яка автоматично вивчатиме та ідентифікуватиме контакти для вас у радіусі кількох кілометрів.",
+    "Reducing your fuel load can significantly improve your aircraft's flight characteristics, and also lets you take off faster.": "Зменшення паливного навантаження може значно покращити льотні характеристики вашого літака, а також дозволяє швидше злетіти.",
+    "The Radial Menu gives you access to several actions relative to your aircraft and can be accessed by holding the 'Radial Menu' keybind.": "Кругове меню дає вам доступ до кількох дій щодо вашого літака, його можна відкрити, утримуючи клавішу «Кругове меню».",
+    "The impact angle of a projectile can determine how effectively it penetrates an armored target.": "Кут влучання снаряда може визначити, наскільки ефективно він пробиває броньовану ціль.",
+    "You can switch directly to any weapon station on by holding the 'Weapon Wheel' keybind and highlighting the desired weapon.": "Ви можете напряму перемикатися на будь-яку точку підвіски зброї, утримуючи клавішу «Збройове колесо» та виділяючи потрібну зброю.",
+    "R9 Stratolance launchers are dependent on a linked radar system to provide targeting data. Destruction of either the radar or launchers will render the battery inoperable.": "Пускові установки R9 Stratolance залежать від з'єднаної системи радара для отримання даних цілевказання. Знищення радара або пускових установок зробить батарею непрацездатною.",
+    "The cargo bay of the VL-49 Tarantula can fit a whole 40-foot shipping container.": "У вантажний відсік VL-49 Tarantula може поміститися цілий 40-футовий вантажний контейнер.",
+    "Munitions containers are volatile, and must be handled with care. Large impacts or weapons fire may cause them to detonate.": "Контейнери з боєприпасами є вибухонебезпечними, і з ними слід поводитися обережно. Сильні удари або вогонь зброї можуть спричинити їхню детонацію.",
+    "You can rescue friendly pilots by landing near them. Rescue of (or capture, in the case of enemy) pilots yields a point reward.": "Ви можете рятувати союзних пілотів, приземлившись поруч із ними. Порятунок (або захоплення у полон у випадку ворожих) пілотів дає нагороду в очках.",
+
     // ========== Faction Settings Tooltips ==========
     "The pool of starting funds, from which regular incomes and join allocations are drawn from. Player donations, contribution, and kill rewards from AI units go back into this pool. If the pool exceeds the starting amount, the excess is split amongst the current players.": "Пул початкових коштів, з якого беруться регулярні доходи та кошти при приєднанні. Пожертви гравців, внески та нагороди за вбивство техніки ШІ повертаються до цього пулу. Якщо сума пулу перевищує початкову, надлишок ділиться між поточними гравцями.",
     "The base rate of income players receive from the faction HQ. This value is per player. If the faction runs out of money, this income will stop.": "Базова ставка доходу, який гравці отримують від штабу фракції. Це значення розраховується на одного гравця. Якщо у фракції закінчаться гроші, цей дохід припиниться.",
@@ -2144,6 +2269,7 @@
     "An opportunity arises to take possession of a valuable piece of sea mining infrastructure. PALA and BDF try to beat each other to the punch.": "З'являється можливість захопити цінний об'єкт морської видобувної інфраструктури. PALA та BDF намагаються випередити один одного.",
     "Fly the A-19 Brawler in a demanding, high tempo close air support mission as BDF narrowly defend Maris Airport against a massive PALA armoured assault.": "Здійсніть виліт на A-19 Brawler у складній та динамічній місії з авіапідтримки, поки BDF захищає аеропорт Маріс від масованого штурму бронетехніки PALA.",
     "Use the Alkyon AB-4 to penetrate heavy enemy air defences and strike a BDF naval base.": "Використовуйте Alkyon AB-4, щоб прорвати потужну ППО ворога та завдати удару по військово-морській базі BDF.",
+    "Infiltrate and destroy a PALA island stronghold under the cover of a raging storm, using the the VT-7 Vagrant.": "Проникніть та знищте острівну цитадель PALA під прикриттям сильного шторму, використовуючи VT-7 Vagrant.",
 
     // --- Tutorials ---
     "Learn how to manage throttle, brake and rudder to safely taxi to the runway, before conducting your first take off. For this lesson you will be piloting the T/A-30 Compass trainer aircraft.": "Навчіться керувати тягою, гальмами та кермом для безпечного руління до ЗПС перед першим зльотом. У цьому уроці ви пілотуватимете навчальний літак T/A-30 Compass.",
@@ -2158,5 +2284,14 @@
     "A combined-arms battle on the eastern half of the map, limited to smaller aircraft. Each side has one main airbase and one forward airbase, with naval assets watching the flanks.": "Загальновійськовий бій у східній частині карти, обмежений малою авіацією. Сторони мають по одній основній та передовій базі; флот прикриває фланги.",
     "A battle for air superiority fought between two large airbases, using high-end assets. Rank 3 aircraft available at start.": "Битва за перевагу в повітрі між двома великими авіабазами з використанням найкращої техніки. Літаки 3-го рангу доступні з самого початку.",
     "An enormous, high intensity war of attrition with all airbases active and using all available assets.\u000B\u000BSuccessively more powerful aircraft, and eventually thermonuclear weapons, are unlocked by increasing individual and team point score respectively.\n\nVictory is acheived when all enemy aircraft factories are destroyed and the enemy side's aircraft carrier, which will arrive midway through the battle, is sunk.": "Масштабна війна на виснаження: всі бази активні, задіяні всі ресурси.\n\nПоступово відкривається потужніша авіація та термоядерна зброя за рахунок очок гравця та команди відповідно.\n\nПеремога досягається знищенням усіх авіазаводів ворога та потопленням авіаносця, який прибуде в середині битви.",
-    "A campaign of island hopping, in which BDF and PALA fight for control of the Ignus Archipelago.\u000B\u000BYour mission is to take and hold the Feldspar International Airport and surrounding smaller airstrips, and to sufficiently degrade the enemy's ability to launch further attacks.": "Кампанія на архіпелазі Ігнус: BDF та PALA борються за контроль над островами.\n\nВаше завдання — захопити аеропорт Фельдспар та навколишні смуги, максимально підірвавши здатність ворога атакувати."
+    "A campaign of island hopping, in which BDF and PALA fight for control of the Ignus Archipelago.\u000B\u000BYour mission is to take and hold the Feldspar International Airport and surrounding smaller airstrips, and to sufficiently degrade the enemy's ability to launch further attacks.": "Кампанія на архіпелазі Ігнус: BDF та PALA борються за контроль над островами.\n\nВаше завдання — захопити аеропорт Фельдспар та навколишні смуги, максимально підірвавши здатність ворога атакувати.",
+    "This computer stabilized turret fires dual purpose 20mm rounds, effective against aircraft or lighly armored surface targets at relatively short ranges": "Ця комп'ютерно стабілізована башта стріляє 20-мм універсальними снарядами, ефективними проти літаків та легкоброньованих наземних цілей на відносно коротких дистанціях.",
+    "A single use, air transportable 1500L fuel bladder that can be deployed at Forward Operation Bases.": "Одноразовий авіатранспортований паливний мішок на 1500 л, який можна розгорнути на передових оперативних базах.",
+    "An air transportable 10,000L fuel tank that can be deployed at Forward Operation Bases.": "Авіатранспортований паливний бак на 10 000 л, який можна розгорнути на передових оперативних базах.",
+    "70mm Cannon": "70-мм гармата",
+    "Fuel Container 10,000L": "Паливний контейнер 10 000 л",
+    "Fuel Container 1500L": "Паливний контейнер 1500 л",
+    "LCV25 Cannon": "LCV25 Гармата",
+    "LCV25 SAM": "LCV25 ЗРК",
+    "Naval Supply Container": "Морський постачальний контейнер"
 }
